@@ -1,45 +1,45 @@
 import React from "react";
 import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
-import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import TwitterIcon from "@material-ui/icons/Twitter";
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/meabhisingh";
+    window.location = "https://instagram.com/";
   };
   return (
     <div className="aboutSection">
       <div></div>
       <div className="aboutSectionGradient"></div>
       <div className="aboutSectionContainer">
-        <Typography component="h1">About Us</Typography>
+        <Typography component="h1">ABOUT US</Typography>
 
         <div>
           <div>
             <Avatar
-              style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
+              style={{ width: "15vmax", height: "15vmax", margin: "2vmax 0" }}
+              src="https://res.cloudinary.com/dajjva0yd/image/upload/v1653416153/products/adminn_m4gbw3.webp"
               alt="Founder"
             />
-            <Typography>Abhishek Singh</Typography>
+            <h1 className="headingdeal">WELCOME TO EXPRESS-DEAL</h1>
+            <Typography>Yash and Pawan</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
-              purpose to teach MERN Stack on the channel 6 Pack Programmer
+              This is a Ecommerce wesbite (EXPRESS-DEAL) made by YASH and PAWAN.
             </span>
           </div>
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
+              href="https://www.twitter.com"
               target="blank"
             >
-              <YouTubeIcon className="youtubeSvgIcon" />
+              <TwitterIcon className="twitterSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://instagram.com" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>

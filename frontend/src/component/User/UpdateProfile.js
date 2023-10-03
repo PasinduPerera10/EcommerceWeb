@@ -129,5 +129,4 @@ const UpdateProfile = ({ history }) => {
     </Fragment>
   );
 };
-
 export default UpdateProfile;

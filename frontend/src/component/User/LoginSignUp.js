@@ -138,6 +138,9 @@ const LoginSignUp = ({ history, location }) => {
                 <Link to="/password/forgot">Forget Password ?</Link>
                 <input type="submit" value="Login" className="loginBtn" />
               </form>
+
+
+              {/*  signupform starts */}
               <form
                 className="signUpForm"
                 ref={registerTab}

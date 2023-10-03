@@ -22,10 +22,9 @@
   top: 50%;
   background-color: rgb(255, 255, 255);
   width: 80vw;
-  height: 80vh;
+  height: 89vh;
   transform: translateX(-50%) translateY(-50%);
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
-
+  box-shadow: 10px 5px 10px 5px rgba(14, 9, 9, 0.76);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +49,6 @@
   padding: 2vmax;
   box-sizing: border-box;
 }
-
 .aboutSectionContainer > div > div > p {
   color: rgba(0, 0, 0, 0.623);
   font: 100 1vmax "Roboto";
@@ -65,6 +63,8 @@
   color: rgba(0, 0, 0, 0.616);
   text-align: center;
   width: 80%;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .aboutSectionContainer2 {
@@ -81,14 +81,16 @@
   font-size: 4vmax;
 }
 
-.youtubeSvgIcon {
-  color: tomato;
+.twitterSvgIcon {
+  color: lightskyblue;
 }
 
 .instagramSvgIcon {
-  color: rgb(144, 81, 202);
+  color: rgb(206, 91, 206);
 }
-
+.headingdeal{
+  color: rgb(247, 56, 22);
+}
 @media screen and (max-width: 600px) {
   .aboutSectionContainer > div {
     display: block;

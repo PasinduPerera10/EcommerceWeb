@@ -1,7 +1,7 @@
 footer {
   margin-top: 10vmax;
   padding: 2vmax;
-  background-color: rgb(34, 33, 33);
+  background-color: rgb(37, 33, 33);
   color: white;
   display: flex;
   align-items: center;
@@ -10,13 +10,13 @@ footer {
 .leftFooter {
   width: 20%;
   display: flex;
-
   flex-direction: column;
   align-items: center;
 }
 .leftFooter > h4 {
   font-family: "Roboto";
   font-size: 1vmax;
+  margin-bottom: 1vmax;
 }
 .leftFooter > p {
   text-align: center;

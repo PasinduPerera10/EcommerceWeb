@@ -13,7 +13,9 @@
   transform: translateX(-100vw);
   animation: mailBtnAnimation 2s forwards;
 }
-
+.mailBtn:hover{
+  font-family: cursive;
+}
 .mailBtn > button {
   text-decoration: none;
   font: 200 2vmax "Roboto";
